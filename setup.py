@@ -114,7 +114,8 @@ setup(
                  'Topic :: Scientific/Engineering'],
     cmdclass={'build_py': build},
     install_requires=['numpy>=1.8.2', 'lazyarray>=0.3.2', 'neo>=0.5.2',
-                      'quantities>=0.12.1'],
+                      'quantities>=0.12.1',
+                      'setuptools>=20.5;python_version!="3.3"'],
     extras_require={
         'examples': ['matplotlib', 'scipy'],
         'plotting': ['matplotlib', 'scipy'],
